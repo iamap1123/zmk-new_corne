@@ -47,8 +47,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - HOME
-  - END
+  - PG UP
+  - PgDn
   SYMBOL:
   - $$mdi:apple-keyboard-caps$$
   - '!'
@@ -77,7 +77,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
   - {t: \, s: '|'}
-  - {t: Sft+`, s: Sft+~}
+  - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
@@ -92,12 +92,12 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {type: held}
-  - HOME
-  - END
+  - {t: \, s: '|'}
+  - {t: '`', s: '~'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - PG UP
-  - PgDn
+  - HOME
+  - END
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
@@ -108,9 +108,9 @@ layers:
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - ^
   - '&'
-  - '1'
-  - '2'
-  - '3'
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
@@ -126,7 +126,7 @@ layers:
   - '4'
   - {t: '5', s: '%'}
   - '6'
-  - {t: '`', s: '~'}
+  - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - OUT BLE
@@ -137,15 +137,15 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - _
   - +
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - +
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-space$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '=', s: +}
   - {t: '0', s: )}
   Fn:
   - '&studio_unlock'
