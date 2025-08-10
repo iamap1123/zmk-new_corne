@@ -47,8 +47,8 @@ layers:
   - END
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - PG UP
-  - PgDn
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   QWERTY:
   - $$mdi:keyboard-tab$$
   - Q
@@ -96,8 +96,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - \
-  - {t: '`', s: '~'}
+  - SYMBOL
+  - SYMBOL
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
