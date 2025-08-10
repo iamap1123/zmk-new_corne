@@ -94,8 +94,8 @@ layers:
   - NUMBER
   - $$mdi:apple-keyboard-option$$
   - {t: NUMBER, h: toggle}
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
+  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
+  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - SYMBOL
   - Fn
   SYMBOL:
@@ -144,8 +144,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held}
+  - {t: '$$mdi:keyboard-return$$', type: held}
+  - {type: held alternate}
   - {t: '0', s: )}
   Fn:
   - '&studio_unlock'
@@ -192,7 +192,7 @@ layers:
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {t: QWERTY, h: toggle, type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: QWERTY, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
