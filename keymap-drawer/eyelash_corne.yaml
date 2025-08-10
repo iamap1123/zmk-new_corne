@@ -47,8 +47,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - PG UP
-  - PgDn
+  - HOME
+  - END
   SYMBOL:
   - $$mdi:apple-keyboard-caps$$
   - '!'
@@ -73,11 +73,11 @@ layers:
   - {t: QWERTY, h: toggle}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB SPI
-  - RGB SPD
+  - {t: '[', s: '{'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - _
+  - +
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
@@ -87,7 +87,7 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - RGB EFR
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB SPD
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -96,8 +96,8 @@ layers:
   - {t: '`', s: '~'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - HOME
-  - END
+  - PG UP
+  - PG DN
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
