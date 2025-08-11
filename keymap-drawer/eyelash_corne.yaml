@@ -99,7 +99,7 @@ layers:
   - PG UP
   - PG DN
   NUMBER:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - '!'
   - '@'
   - '#'
