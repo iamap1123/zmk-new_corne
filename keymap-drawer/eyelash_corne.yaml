@@ -160,7 +160,7 @@ layers:
   - F8
   - F9
   - F10
-  - F11
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
