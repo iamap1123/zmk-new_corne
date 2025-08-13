@@ -6,11 +6,11 @@ manifest:
       # See:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
-    - name: gpeye
-      url-base: https://github.com/GPeye
+    - name: iamap1123
+      url-base: https://github.com/iamap1123
   projects:
     - name: mario-preipheral-animation
-      remote: gpeye
+      remote: iamap1123
       revision: main
     - name: zmk
       remote: zmkfirmware
