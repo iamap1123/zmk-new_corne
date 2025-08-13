@@ -47,8 +47,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - HOME
-  - END
+  - {t: '-', s: _}
+  - {t: '=', s: +}
   SYMBOL:
   - $$mdi:apple-keyboard-caps$$
   - '!'
@@ -57,12 +57,12 @@ layers:
   - $
   - '%'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - ^
   - '&'
   - '*'
   - (
   - )
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -73,11 +73,11 @@ layers:
   - {t: QWERTY, h: toggle}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB SPI
+  - HOME
+  - END
+  - $$mdi:arrow-up-bold$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - $$mdi:arrow-up-bold$$
-  - _
-  - +
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
