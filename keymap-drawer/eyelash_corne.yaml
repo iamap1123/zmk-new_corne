@@ -44,10 +44,10 @@ layers:
   - {t: /, s: '?'}
   - SYMBOL
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:apple-keyboard-control$$', h: Fn}
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '-', s: _}
+  - {t: '-', h: Fn, s: _}
   - {t: '=', s: +}
   SYMBOL:
   - $$mdi:apple-keyboard-caps$$
@@ -150,7 +150,7 @@ layers:
   Fn:
   - '&studio_unlock'
   - F1
-  - F2
+  - F12
   - F3
   - F4
   - F5
@@ -174,8 +174,8 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-  - PRINTSCREEN
-  - F12
+  - (
+  - )
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -191,10 +191,10 @@ layers:
   - SCROLLLOCK
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: \, s: '|'}
   - {t: QWERTY, h: toggle}
-  - HOME
+  - {t: HOME, type: held}
   - END
   '4':
   - {t: '$$mdi:transfer$$', type: trans}
