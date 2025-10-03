@@ -57,7 +57,7 @@
             bindings = <
 &kp TAB         &kp Q  &kp W  &kp E         &kp R               &kp T                               &kp UP                &kp Y      &kp U      &kp I      &kp O    &kp P     &kp BSPC
 &kp LGUI        &kp A  &kp S  &kp D         &kp F               &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V               &kp B        &kp SPACE              &kp DOWN              &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &mo 1
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V               &kp B        &kp SPACE              &kp DOWN              &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &mo 2
                               &kp LEFT_ALT  &lt 3 LEFT_CONTROL  &lt 2 SPACE                                               &kp ENTER  &kp MINUS  &kp EQUAL
             >;
 
@@ -79,10 +79,10 @@
         raise_layer {
             display-name = "NUMBER";
             bindings = <
-&kp ESC  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp N7        &kp N8        &kp N9        &kp BSPC
-&trans   &kp A     &kp S   &kp D     &kp F     &kp G                &mmv MOVE_LEFT  &to 0           &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS
-&trans   &kp Z     &kp X   &kp C     &kp V     &kp B      &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
-                           &trans    &trans    &kp SPACE                                                             &kp ENTER  &kp EQUAL  &kp N0
+&kp ESC  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                            &mmv MOVE_UP                     &kp CARET         &kp AMPS           &kp N7        &kp N8        &kp N9        &kp BSPC
+&trans   &kp A     &kp S   &kp D     &kp F     &kp G                &mmv MOVE_LEFT  &to 0           &mmv MOVE_RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans
+&trans   &kp Z     &kp X   &kp C     &kp V     &kp B      &trans                    &mmv MOVE_DOWN                   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+                           &trans    &trans    &kp SPACE                                                             &kp ENTER         &trans             &kp N0
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -98,6 +98,15 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
+            >;
         };
     };
 };
