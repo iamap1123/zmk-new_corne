@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - NUMBER
+  - SYMBOL
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:apple-keyboard-control$$', h: Fn}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
@@ -91,7 +91,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: \, s: '|'}
   - {t: '`', s: '~'}
   - $$mdi:keyboard-space$$
@@ -140,10 +140,10 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-space$$', type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-space$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
