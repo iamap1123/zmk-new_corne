@@ -186,16 +186,16 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
   - PgDn
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - HOME
+  - END
   - SCROLLLOCK
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: \, s: '|'}
   - {t: QWERTY, h: toggle}
-  - {t: HOME, type: held}
-  - END
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   '4':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
